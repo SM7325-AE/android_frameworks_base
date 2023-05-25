@@ -163,6 +163,7 @@ class AuthRippleController @Inject constructor(
     }
 
     private fun showUnlockedRipple() {
+        return
         notificationShadeWindowController.setForcePluginOpen(true, this)
 
         // This code path is not used if the KeyguardTransitionRepository is managing the light
